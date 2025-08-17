@@ -13,7 +13,7 @@ import {
 
 // import Logo from "../components/common/logo";
 import Footer from "../components/common/footer";
-import ThemeToggle from "../components/common/themetoggle";
+
 import NavBar from "../components/common/navBar";
 import Article from "../components/homepage/article";
 import Works from "../components/homepage/works";
@@ -76,9 +76,9 @@ const Homepage = () => {
 				<NavBar active="home" />
 				<div className="content-wrapper">
 					<div className="homepage-logo-container">
-						<div>
+						{/* <div>
 						<ThemeToggle />
-						</div>
+						</div> */}
 					</div>
 
 					<div className="homepage-container">
