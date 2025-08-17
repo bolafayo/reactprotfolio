@@ -40,11 +40,11 @@
 .about-left-side {
 	display: flex;
 	flex-direction: column;
-	flex-basis: 300px;
+	flex-basis: 400px;
 }
 
 .about-image-container {
-	width: 370px;
+	width: 240px;
 }
 
 .about-image-wrapper {

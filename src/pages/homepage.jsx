@@ -8,10 +8,12 @@ import {
 	faGithub,
 	faStackOverflow,
 	faInstagram,
+	faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
 
-import Logo from "../components/common/logo";
+// import Logo from "../components/common/logo";
 import Footer from "../components/common/footer";
+import ThemeToggle from "../components/common/themetoggle";
 import NavBar from "../components/common/navBar";
 import Article from "../components/homepage/article";
 import Works from "../components/homepage/works";
@@ -24,7 +26,7 @@ import myArticles from "../data/articles";
 import "./styles/homepage.css";
 
 const Homepage = () => {
-	const [stayLogo, setStayLogo] = useState(false);
+	// const [stayLogo, setStayLogo] = useState(false);
 	const [logoSize, setLogoSize] = useState(80);
 	const [oldLogoSize, setOldLogoSize] = useState(80);
 
@@ -42,13 +44,13 @@ const Homepage = () => {
 				if (newLogoSize > 40) {
 					setLogoSize(newLogoSize);
 					setOldLogoSize(newLogoSize);
-					setStayLogo(false);
+					// setStayLogo(false);
 				} else {
-					setStayLogo(true);
+					// setStayLogo(true);
 				}
 			} else {
 				setLogoSize(newLogoSize);
-				setStayLogo(false);
+				// setStayLogo(false);
 			}
 		};
 
@@ -58,15 +60,6 @@ const Homepage = () => {
 
 	const currentSEO = SEO.find((item) => item.page === "home");
 
-	const logoStyle = {
-		display: "flex",
-		position: stayLogo ? "fixed" : "relative",
-		top: stayLogo ? "3vh" : "auto",
-		zIndex: 999,
-		border: stayLogo ? "1px solid white" : "none",
-		borderRadius: stayLogo ? "50%" : "none",
-		boxShadow: stayLogo ? "0px 4px 10px rgba(0, 0, 0, 0.25)" : "none",
-	};
 
 	return (
 		<React.Fragment>
@@ -83,8 +76,8 @@ const Homepage = () => {
 				<NavBar active="home" />
 				<div className="content-wrapper">
 					<div className="homepage-logo-container">
-						<div style={logoStyle}>
-							<Logo width={logoSize} link={false} />
+						<div>
+						<ThemeToggle />
 						</div>
 					</div>
 
@@ -104,7 +97,7 @@ const Homepage = () => {
 								<div className="homepage-image-container">
 									<div className="homepage-image-wrapper">
 										<img
-											src="homepage.jpg"
+											src="homepages.jpg"
 											alt="about"
 											className="homepage-image"
 										/>
@@ -155,6 +148,16 @@ const Homepage = () => {
 								/>
 							</a>
 							<a
+								href={INFO.socials.linkedin}
+								target="_blank"
+								rel="noreferrer"
+							>
+								<FontAwesomeIcon
+									icon={faLinkedin}
+									className="homepage-social-icon"
+								/>
+							</a>
+							<a
 								href={`mailto:${INFO.main.email}`}
 								target="_blank"
 								rel="noreferrer"
@@ -164,6 +167,7 @@ const Homepage = () => {
 									className="homepage-social-icon"
 								/>
 							</a>
+							
 						</div>
 
 						<div className="homepage-projects">

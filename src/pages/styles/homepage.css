@@ -1,10 +1,10 @@
 @import "../../data/styles.css";
 
 .homepage-logo-container {
-	display: flex;
+	/* display: flex;
 	justify-content: left;
-	align-items: center;
-	padding-top: 130px;
+	align-items: center; */
+	padding-top: 30px;
 }
 
 .homepage-container {
@@ -37,8 +37,8 @@
 }
 
 .homepage-image-container {
-	width: 370px;
-	height: 370px;
+	width: 270px;
+	height: 490px;
 }
 
 .homepage-image-wrapper {
@@ -75,7 +75,8 @@
 
 .homepage-projects {
 	flex-basis: 300px;
-	padding-top: 40px;
+	padding-top: 50px;
+	
 }
 
 .homepage-articles {
@@ -89,9 +90,10 @@
 }
 
 .homepage-works {
-	flex-basis: 600px;
+	flex-basis:600px;
 	padding-top: 30px;
 }
+
 
 @media (max-width: 1024px) {
 	.homepage-first-area {
@@ -108,7 +110,7 @@
 
 	.homepage-title {
 		width: 100% !important;
-		margin-top: 20px;
+		margin-top: 60px;
 		order: 2;
 	}
 
@@ -126,7 +128,7 @@
 	.homepage-image-container {
 		padding-top: 50px;
 		padding-bottom: 50px;
-		margin-left: 10px;
+		margin-left: 51px;
 		order: 1;
 	}
 
@@ -135,7 +137,9 @@
 	}
 
 	.homepage-projects {
-		flex-basis: auto;
+		display: grid;
+		grid-template-columns: 1fr   ;
+		
 	}
 
 	.homepage-articles {

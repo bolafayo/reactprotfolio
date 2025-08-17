@@ -36,3 +36,7 @@
 	justify-content: flex-start;
 	align-items: center;
 }
+.subtitle contact-subtitle a{
+	text-decoration: none;
+	color: dimgray;
+}

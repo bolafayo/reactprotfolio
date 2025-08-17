@@ -15,8 +15,9 @@
 }
 
 .projects-container {
-	display: flex;
-	flex-direction: column;
+
+	display: grid;
+	grid-template-columns: 1fr;
 	height: 100%;
 	margin: 0;
 	padding-top: 120px;
@@ -25,6 +26,8 @@
 @media (max-width: 600px) {
 	.projects-container {
 		padding-top: 60px;
+		display: grid;
+			grid-template-columns:  1fr;
 	}
 
 	.projects-project {

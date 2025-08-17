@@ -3,7 +3,7 @@ import { Helmet } from "react-helmet";
 
 import NavBar from "../components/common/navBar";
 import Footer from "../components/common/footer";
-import Logo from "../components/common/logo";
+// import Logo from "../components/common/logo";
 import AllProjects from "../components/projects/allProjects";
 
 import INFO from "../data/user";
@@ -33,9 +33,9 @@ const Projects = () => {
 				<NavBar active="projects" />
 				<div className="content-wrapper">
 					<div className="projects-logo-container">
-						<div className="projects-logo">
+						{/* <div className="projects-logo">
 							<Logo width={46} />
-						</div>
+						</div> */}
 					</div>
 					<div className="projects-container">
 						<div className="title projects-title">
