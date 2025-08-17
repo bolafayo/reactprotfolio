@@ -3,7 +3,7 @@ const INFO = {
 		title: "my protfolio",
 		name: "Olufayo Bolade Taiwo.",
 		email: "boladeolufayo@gmail.com",
-		// logo: "../logo.png",
+	
 	},
 
 	socials: {
