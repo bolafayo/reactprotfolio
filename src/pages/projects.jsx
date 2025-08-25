@@ -44,7 +44,7 @@ const Projects = () => {
 						</div>
 
 						<div className="subtitle projects-subtitle">
-							I've worked on a variety of projects over the years
+							I've worked on a variety of projects over the month
 							and I'm proud of the progress I've made. Many of
 							these projects are open-source and available for
 							others to explore and contribute to. If you're

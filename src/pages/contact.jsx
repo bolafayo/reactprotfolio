@@ -57,7 +57,7 @@ const Contact = () => {
 							possible. Finally, if you prefer to connect on
 							social media, you can find me on{" "}
 							<a
-								href={INFO.socials.instagram}
+								href={INFO.socials.linkedin}
 								target="_blank"
 								rel="noreferrer"
 							>
