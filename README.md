@@ -4,7 +4,7 @@ Reactfolio is a modern and customizable personal portfolio web template built us
 
 
 
-Live demo here: <a https://reactprotfolio-git-master-bolade-olufayos-projects.vercel.app/</a>
+Live demo here: https://reactprotfolio-git-master-bolade-olufayos-projects.vercel.app/
 
 -   [Features](#-features)
 -   [Getting started](#-getting-started)
