@@ -1,0 +1,79 @@
+/* projectdetail.css */
+
+.project-detail-container {
+    max-width: 900px;
+    margin: 4rem auto;
+    padding: 2rem;
+    background: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+    font-family: "Inter", sans-serif;
+}
+
+.project-detail-container h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 1rem 0;
+    text-align: center;
+    color: #1a202c;
+}
+
+.project-detail-logo {
+    display: block;
+    width: 100%;
+    
+    max-height: 100px;
+    object-fit: contain;
+    margin: 2rem auto;
+    border-radius: 12px;
+    background: #f9fafb;
+    padding: 1rem;
+}
+
+.project-readme {
+    font-size: 15px;
+    line-height: 1.7;
+    color: #4a5568;
+    margin: 2rem 0;
+}
+
+.project-readme h2,
+.project-readme h3 {
+    margin: 1.5rem 0 1rem;
+    font-weight: 600;
+    color: #2d3748;
+}
+
+.project-readme p {
+    margin-bottom: 1rem;
+}
+
+.project-link {
+    display: inline-block;
+    margin-top: 2rem;
+    padding: 0.75rem 1.5rem;
+    background:  var(--primary-color);
+    color: #fff;
+    font-weight: 600;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background 0.3s ease;
+}
+
+.project-link:hover {
+    background:var(--secondary-color)
+}
+
+.back-btn {
+    display: inline-block;
+    margin-bottom: 1rem;
+    font-size: 0.95rem;
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: 600;
+    transition: color 0.2s ease;
+}
+
+.back-btn:hover {
+    color:var(--secondary-color);
+}
