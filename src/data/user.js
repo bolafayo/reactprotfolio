@@ -40,17 +40,12 @@ const INFO = {
   description: "Responsive, User-Friendly E-Commerce Website Built with Performance in Mind.",
   fullDescription: `
   <div style="text-align: center; margin:40px ;">
-    <img src="/pho1.png" alt=" Homepage" width="600"/>
+    <img src="/pho1.png" alt=" Homepage" width="800"/>
   </div>
   <p>A modern e-commerce web application where users can  browse products, view details, choose sizes, register/log in, add items to their cart, and check out seamlessly. The project leverages API integration, local storage persistence, and a clean, responsive design for a smooth shopping experience
   Product listing with images, titles, and prices, Product detail page with size selection ,add to cart (with authentication required),cart management (remove items, clear cart, calculate total price),user authentication (registration & login),localStorage API for cart and session persistence,responsive design with Grid & CSS3, toast notifications for feedback (VanillaToasts), tools used(HTML5, CSS3 / Flexbox, JavaScript (Vanilla),Font Awesome,
   
   -API integration (Fake Store API) :</p>
-  <p>Live Demo: 
-  <a href="https://ecommerce-six-topaz-75.vercel.app/" target="_blank" rel="noopener noreferrer">
-	https://ecommerce-six-topaz-75.vercel.app/
-  </a>
-</p>
   <ul>
     <li>Browse products</li>
     <li>View details and choose sizes</li>
@@ -63,6 +58,8 @@ const INFO = {
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
 			linkText: "View Project",
 			link: "https://github.com/bolafayo/ecommerce",
+      liveDemoText: "Live Demo",
+    liveDemo: "https://ecommerce-six-topaz-75.vercel.app/",
 		},
 
 		{
@@ -70,14 +67,9 @@ const INFO = {
 			shortDescription: "A clean, responsive blog application featuring dynamic date rendering, comment and like systems with icons, engaging reading experience..",
   fullDescription: `
   <div style="text-align: center; margin:40px ;">
-    <img src="/pho2.png" alt=" Homepage" width="600"/>
+    <img src="/pho2.png" alt=" Homepage" width="800"/>
   </div>
   <p>A simple yet interactive personal blog application where users can read posts, leave comments, like content, share posts, and subscribe to a newsletter. Designed with clean UI/UX and powered by HTML, CSS, and JavaScript.Dynamic Date Rendering (using JavaScript), Comment System with delete option, Like Button with icon, Share Post Section (Facebook, Twitter, WhatsApp, Copy Link), Newsletter Subscription Form (stored in LocalStorage,Responsive Design with clean styling,LocalStorage Integration to persist user input .Tools(HTML5, CSS3 / Flexbox, JavaScript (DOM Manipulation, LocalStorage), Font Awesome for icons) </p>
-  <p>Live Demo: 
-  <a href="https://personalblog-one-beige.vercel.app/" target="_blank" rel="noopener noreferrer">
-  https://personalblog-one-beige.vercel.app/
-  </a>
-</p>
   <ul>
     <li>DOM manipulation with JavaScript</li>
     <li>Handling form inputs and saving data to LocalStorage</li>
@@ -90,6 +82,8 @@ const INFO = {
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
 			linkText: "View Project",
 			link: "https://github.com/bolafayo/personalblog",
+      liveDemoText: "Live Demo",
+      liveDemo: "https://personalblog-one-beige.vercel.app/",
 		},
 
 		{
@@ -98,15 +92,10 @@ const INFO = {
 			shortDescription: "A dynamic recipe web app with search, filters, ratings, favorites, and personalized dashboards for diet, allergies, cuisines, and goals...",
   fullDescription: `
   <div style="text-align: center; margin:40px ;">
-    <img src="/pho3.png" alt="Homepage" width="600"/>
+    <img src="/pho3.png" alt="Homepage" width="800"/>
   </div>
   <p>A recipe discovery web application where users can search, filter by diet, allergies, cuisines, and goals, mark favorites, and view detailed cooking instructions.Product listing with images, titles, and prices, Product detail page with size selection, add to cart (with authentication required), cart management (remove items, clear cart, calculate total price), user authentication (registration & login), localStorage API for cart and session persistence, responsive design with Grid & CSS3, toast notifications for feedback (VanillaToasts). Tools(React, VanillaToasts, Font Awesome, CSS3 / Flex, LocalStorage API, DummyJSON Recipes API) </p>
 
-  <p>Live Demo: 
-  <a href="https://recipeswebsite-psi.vercel.app/" target="_blank" rel="noopener noreferrer">
-  https://recipeswebsite-psi.vercel.app/
-  </a>
-</p>
   <ul>
     <li>Working with APIs</li>
     <li>State management through localStorage.</li>
@@ -119,6 +108,8 @@ const INFO = {
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
 			linkText: "View Project",
 			link: "https://github.com/bolafayo/recipeswebsite",
+      liveDemoText: "Live Demo",
+      liveDemo: "https://recipeswebsite-psi.vercel.app/",
 
 		},
 
@@ -128,16 +119,12 @@ const INFO = {
 			shortDescription: "A modern and interactive Hair Salon website built with React (Vite) and TypeScript, designed to showcase salon services, stylists, and allow clients to book appointments.",
   fullDescription: `
   <div style="text-align: center; margin:40px ;">
-    <img src="/pho5.png" alt=" Homepage" width="600"/>
+    <img src="/pho5.png" alt=" Homepage" width="800"/>
   </div>
   <p>The app features dynamic service navigation, an about section with images, stylist profiles, and a contact form integrated with localStorage for appointment tracking. Designed with a focus on clean UI/UX, dark & light mode support, and smooth navigation, this project demonstrates the ability to build a responsive, client-focused application with real-world usability.Navigation Bar with smooth scrolling and page routing
   Services Page: Clickable service categories (Cut & Styling, Coloring, Treatments, etc.) about Page: Rich descriptions with multiple images
   Stylists Section: Carousel of expert stylists with profile details and notifications on selection, book Appointment Form: Saves data in localStorage and shows confirmation alerts, back Arrow Navigation on each page to return to Home</p>
-  <p>Live Demo: 
-  <a href="https://vercel.com/bolade-olufayos-projects/hairsalaon/FHh7myn3KWUxNuu7E3UMKVsXA3DH" target="_blank" rel="noopener noreferrer">
-  https://vercel.com/bolade-olufayos-projects/hairsalaon/FHh7myn3KWUxNuu7E3UMKVsXA3DH
-  </a>
-</p>
+  
   <ul>
     <li>React (Vite) – Frontend framework</li>
     <li>TypeScript – Static typing</li>
@@ -151,6 +138,9 @@ const INFO = {
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
 			linkText: "View Project",
 			link: "https://github.com/bolafayo/hairsalaon",
+      liveDemoText: "Live Demo",
+      liveDemo: "https://hairsalaon-f6m6wozg7-bolade-olufayos-projects.vercel.app/",
+
 
 		},
 
@@ -160,17 +150,12 @@ const INFO = {
 			shortDescription: "Todo List App Built with HTML, CSS, and JavaScript to keep productivity simple and engaging, track tasks, filter progress.",
   fullDescription: `
   <div style="text-align: center; margin:40px ;">
-    <img src="/pto4.png" alt=" Homepage" width="600"/>
+    <img src="/pto4.png" alt=" Homepage" width="800"/>
   </div>
   <p>A minimal, interactive productivity tool that helps users create, track, and manage tasks with ease.
   This project was built using HTML, CSS, and Vanilla JavaScript to strengthen skills in DOM manipulation, event handling, and state management.Add complete, and delete tasks, filter tasks: All | Active | Completed, real-time progress bar to visualize task completion
   Simple and responsive design, motivational interface for productivity. TOOLS(HTML5, CSS3, JavaScript) </p>
   
-  <p>Live Demo: 
-  <a href="https://todolist-five-xi-20.vercel.app/" target="_blank" rel="noopener noreferrer">
-  https://todolist-five-xi-20.vercel.app/
-  </a>
-</p>
   <ul>
     <li>DOM manipulation with JavaScript</li>
     <li>Handling form inputs and saving data to LocalStorage</li>
@@ -183,6 +168,8 @@ const INFO = {
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
 			linkText: "View Project",
 			link: "https://github.com/bolafayo/todolist",
+      liveDemoText: "Live Demo",
+      liveDemo: "https://todolist-five-xi-20.vercel.app/",
 		},
 	],
 };
