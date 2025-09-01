@@ -2,11 +2,9 @@
 
 Reactfolio is a modern and customizable personal portfolio web template built using the popular React library. It provides an easy way for developers, designers, and creatives to showcase their work, skills, and achievements in a professiona and visually appealing way. With its responsive design and clean code, Reactfolio can be easily tailored to suit individual needs and preferences, making it an ideal choice for anyone looking to create a stunning online portfolio.
 
-<center>
-<img src="https://cdn.tharindu.dev/reactfolio.jpg" alt="Reactfolio" />
-</center>
 
-Live demo here: <a href="https://reactfolio.tharindu.dev/" target="_blank">reactfolio.tharindu.dev</a>
+
+Live demo here: https://reactprotfolio-git-master-bolade-olufayos-projects.vercel.app/
 
 -   [Features](#-features)
 -   [Getting started](#-getting-started)
@@ -133,8 +131,8 @@ Directory: `/src/data/`
     	{
     		page: "home",
     		description:
-    			"I am a backend developer with expertise in Node.js. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies.",
-    		keywords: ["Tharindu", "Tharindu N", "Tharindu Nayanajith"],
+    			"I am a creative and detail-oriented Frontend Developer, skilled at translating ideas into functional, visually appealing solutions",
+    		keywords: ["olufayo Bolade"],
     	},
     ];
     ```
